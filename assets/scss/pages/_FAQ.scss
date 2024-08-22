@@ -1,0 +1,36 @@
+.title{
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 16px;
+    border-left: 10px solid var(--primary);
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.subtitle{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.question{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 376px) {
+    .title{
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .pt-sm-6{
+        padding-top: 24px;
+    }
+    .pb-sm-3{
+        padding-bottom: 12px;
+    }
+    .py-sm-10{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
